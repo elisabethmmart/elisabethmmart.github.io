@@ -23,10 +23,15 @@ p {
 	color: #000000;
 }
 #image2 {
-	padding: 1em, 0, 1em, 0;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px
+	padding: 1em 0 1em 0;
 	width: 100%;
 }
 #image1 {
+	display: block;
+	margin: 10px;
 	width: 399px;
 	height: 78px;
 }
