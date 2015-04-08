@@ -22,7 +22,11 @@ h1 {
 	font-size: 12px;
 	color: #000000;
 }
-img {
+#image2 {
 	padding: 1em, 0, 1em, 0;
 	width: 100%;
+}
+#image1 {
+	width: 399px;
+	height: 78px;
 }
