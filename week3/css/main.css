@@ -34,11 +34,12 @@ p, ul {
 }
 #image3 {
 	display: block;
+	width: 500px;
 	margin-left: 50px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-img {
+.imagewrapper img {
 	max-width: 100%;
 	height: auto;
 	width: auto;
