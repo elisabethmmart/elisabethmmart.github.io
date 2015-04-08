@@ -22,15 +22,14 @@ p {
 	font-size: 14px;
 	color: #000000;
 }
-#image2 {
-	display: block;
-	margin-top: 5px;
-	margin-bottom: 10px
-	width: 100%;
-}
 #image1 {
 	display: block;
 	margin: 10px;
 	width: 399px;
 	height: 78px;
+}
+#image2 {
+	display: block;
+	margin: 10px;
+	width: 100%;
 }
