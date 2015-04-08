@@ -14,11 +14,11 @@ body {
 
 }
 p, ul {
-	font-family: 'roboto-regular';
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 }
 #slogan {
-	font-family: 'roboto-regular';
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	color: #000000;
 }
