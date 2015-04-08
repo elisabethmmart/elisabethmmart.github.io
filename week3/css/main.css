@@ -32,3 +32,9 @@ p, ul {
 	display: block;
 	width: 100%;
 }
+#image3 {
+	display: block;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
