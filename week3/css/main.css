@@ -1,6 +1,29 @@
 body {
-	background-color:#f8f8f8;
+	background-color: #FFFFFF;
 }
-h1, p {
-	color:#191919;
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff2') format('woff2'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1 {
+	font-family: 'roboto-regular';
+	font-size: 24px;
+}
+#slogan {
+	font-family: 'roboto-regular';
+	font-size: 12px;
+	color: #000000;
+}
+img {
+	padding: 1em, 0, 1em, 0;
+	width: 100%;
+	position: absolute;
 }
