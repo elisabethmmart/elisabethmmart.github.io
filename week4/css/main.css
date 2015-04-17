@@ -1,0 +1,47 @@
+body {
+	background-color: #FFFFFF;
+}
+p, ul {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+#slogan {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+#image1 {
+	display: block;
+	margin: 10px;
+}
+#image2 {
+	display: block;
+	width: 100%;
+}
+#image3 {
+	display: block;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+.nav ul {
+	list-style: none;
+	text-align: right;
+	padding: 5px;
+}
+.nav li {
+	font-family: 'Glegoo', serif;
+	font-weight: bold;
+	font-size: 1em;
+	width: 150px;
+	display: inline-block;
+}
+.nav a {
+	text-decoration: none;
+	color: #000000;
+}
