@@ -18,31 +18,48 @@ p, ul {
 	display: block;
 	width: 100%;
 }
-#image3 {
+#image5 {
 	display: block;
 	margin-left: 50px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+#image3 {
+	display: block;
+	margin: 10px;
+	max-height: 200px;
+	max-width: 400px
+}
+#image4 {
+	display: block;
+	margin: 10px;
+	max-height: 200px;
+	max-width: 400px
+}
+#twoimages {
+	float: right;
 }
 img {
 	max-width: 100%;
 	height: auto;
 	width: auto\9;
 }
-.nav ul {
+ul {
 	list-style: none;
+	float: right;
 	text-align: right;
-	padding: 0 5px 0 0;
+	padding: 0;
 	margin: auto;
+	display: inline-block;
 }
-.nav li {
+li {
 	font-family: 'Glegoo', serif;
 	font-weight: bold;
 	font-size: 1em;
 	width: 150px;
 	display: inline-block;
 }
-.nav a {
+a {
 	text-decoration: none;
 	color: #000000;
 }
