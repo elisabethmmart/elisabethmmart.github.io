@@ -11,7 +11,7 @@ p, ul {
 	color: #000000;
 }
 #image1 {
-	display: block;
+	display: inline-block;
 	margin: 10px;
 }
 #image2 {
@@ -32,7 +32,8 @@ img {
 .nav ul {
 	list-style: none;
 	text-align: right;
-	padding: 5px;
+	padding: 0 5px 0 0;
+	margin: auto;
 }
 .nav li {
 	font-family: 'Glegoo', serif;
