@@ -38,6 +38,8 @@ p, ul {
 }
 #twoimages {
 	float: right;
+	display: block;
+	margin-top: 50px;
 }
 img {
 	max-width: 100%;
