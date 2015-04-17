@@ -29,7 +29,7 @@ p, ul {
 #twoimages {
 	float: right;
 	display: inline-block;
-	width: 40%;
+	max-width: 40%;
 	margin-left: 5px;
 }
 #wrapper {
@@ -82,4 +82,8 @@ li {
 a {
 	text-decoration: none;
 	color: #000000;
+}
+.dynamicimages {
+	width: 100%;
+	height: auto;
 }
