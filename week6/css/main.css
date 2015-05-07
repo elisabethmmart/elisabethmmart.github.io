@@ -1,0 +1,41 @@
+body {
+	background-color: #FFF;
+}
+h3 {
+	font-family: 'Lobster', sans-serif;
+	font-size: 3em;
+	padding: 10px;
+}
+ul {
+	text-align: center;
+	display: inline-block;
+}
+li {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFF;
+	background-color: #000;
+	display: inline-block;
+	padding: 10px;
+}
+p {
+	font-family: 'Yanone Kaffesesatz', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+#image1 {
+	width: 100%;
+}
+#wrapper {
+	width: 800px;
+	margin: 20px auto;
+}
+#content {
+	width: 550px;
+	float: left;
+}
+aside {
+	width: 250px;
+	float: right;
+}
