@@ -1,45 +1,142 @@
 body {
 	background-color: #FFF;
+	margin: 0 auto;
+}
+header nav ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	margin: 10px;
+	display: inline-block;
+	float: right;
+}
+.nav {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #FFF;
+	font-size: 30px;
+	font-weight: 400;
+	text-decoration: none;
+	background-color: #FF9966;
+	display: inline-block;
+	padding: 10px;
+	width: 100px;
+}
+nav {
+	display: inline-block;
+	max-width: 70%;
+	float: right;
+	margin: 160px 0 0 0;
+}
+p {
+	font-family: 'Yanone Kaffesesatz', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+#logo {
+	display: inline-block;
+	margin: 20px 10px;
+	max-width: 30%;
+}
+#hero {
+	width: 900px;
+	margin: 0 auto;
+}
+#image1 {
+	display: inline-block;
+	width: 293px;
+}
+#image2 {
+	display: inline-block;
+}
+#image3 {
+	display: inline-block;
+}
+#wrapper {
+	width: 900px;
+	margin: 20px auto;
+}
+#content {
+	width: 580px;
+	float: left;
+	padding: 5px 10px;
+}
+#whylimit {
+	font-size: 20px;
+	font-weight: 700;
+}
+aside {
+	width: 280px;
+	float: right;
+	padding: 5px 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #FFF;
+}
+nav ul li:hover {
+	background-color: #3D3C3C;
+}
+header {
+	width: 900px;
+	margin: 0 auto;
+}
+#twitter {
+	padding: 5px;
+}
+#facebook {
+	padding: 5px;
+}
+#instagram {
+	padding: 5px;
 }
 h3 {
-	font-family: 'Lobster', sans-serif;
-	font-size: 3em;
-	padding: 10px;
+	font-family: 'Yanone Kaffesesatz', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #FFF;
+	padding: 0 15px;
 	display: inline-block;
 }
 ul {
 	list-style-type: none;
-	text-align: center;
-	padding: 0;
-	margin: auto;
-	display: inline-block;
+	font-family: 'Yanone Kaffesesatz', sans-serif;
+	font-size: 16px;
+	color: #FFF;
 }
 li {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 14px;
-	font-weight: 700;
-	color: #FFF;
-	background-color: #000;
-	display: inline-block;
-	padding: 10px;
+	padding: 5px;
 }
-p {
-	font-family: 'Yanone Kaffesesatz', sans-serif;
-	font-size: 12px;
-	font-weight: 400;
-}
-#image1 {
+#menu {
+	display: block;
 	width: 100%;
+	margin: 0;
 }
-#wrapper {
-	width: 800px;
-	margin: 20px auto;
-}
-#content {
-	width: 550px;
-	float: left;
-}
-aside {
-	width: 250px;
+#menuaside {
+	width: 280px;
 	float: right;
+	padding: 5px 10px;
+	margin: 0 auto;
+}
+#menucontent {
+	width: 580px;
+	float: left;
+	padding: 0px 5px;
+	background-color: #FF9966;
+	overflow: auto;
+}
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	color: #3D3C3C;
+}
+section {
+	background-color: #FFF;
+	overflow: auto;
+	width: 900px;
+	margin: 0 auto;
+}
+#veggies1 #veggies2 {
+	margin: 0 auto;
 }
