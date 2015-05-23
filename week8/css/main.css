@@ -1,13 +1,10 @@
 body {
 	background-color: #FFFFFF;
-}
-p, ul {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 }
 #slogan {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
 	color: #000000;
 }
 #image1 {
@@ -110,6 +107,25 @@ a {
 	#wrapper, #header {
 		width: 75%;
 	}
+	body {
+		font-size: 12px;
+	}
+	#become {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 0;
+	}
+	#join {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 3em;
+	margin-top: 0;
+	margin-left: 15%;
+	font-size: 1.5em;
+	line-height: 1em;
+	}
 }
 @media only screen and (max-width: 320px) {
 	#twoimages {
@@ -122,14 +138,30 @@ a {
 	#wrapper, #header {
 		width: 75%;
 	}
-	p {
+	body {
 		font-size: 10px;
 	}
 	#image1 {
 		display: block;
-		margin: 0 auto;
+		margin: 10% auto;
 	}
 	nav {
 		display: none;
+	}
+		#become {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 0;
+	}
+	#join {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 3em;
+	margin-top: 0;
+	margin-left: 15%;
+	font-size: 1.5em;
+	line-height: 1em;
 	}
 }
