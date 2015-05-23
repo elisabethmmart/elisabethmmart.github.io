@@ -1,0 +1,135 @@
+body {
+	background-color: #FFFFFF;
+}
+p, ul {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+#slogan {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+#image1 {
+	width: 33%;
+	min-width: 200px;
+	display: inline-block;
+	margin: 10px;
+}
+#image2 {
+	display: block;
+	width: 100%;
+}
+#image3 {
+	display: block;
+	margin: 10px 0 20px;
+}
+#image4 {
+	display: block;
+	margin: 10px 0 20px;
+}
+#twoimages {
+	float: right;
+	display: block;
+	width: 40%;
+	max-width: 300px;
+	margin-left: 5px;
+}
+#twoimages img {
+	width: 100%;
+	min-width: 200px;
+	height: auto;
+}
+#wrapper {
+	width: 66%;
+	margin: 20px auto 0;
+}
+#content {
+	width: 60%;
+	max-width: 500px;
+	float: left;
+}
+#become {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 0;
+}
+#join {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 3em;
+	margin-top: 0;
+	margin-left: 15%;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+header {
+	width: 66%;
+	margin: 0 auto;
+}
+ul {
+	list-style: none;
+	float: right;
+	text-align: center;
+	padding: 0;
+	margin: auto;
+	display: inline-block;
+	width: 67%;
+}
+li {
+	font-family: 'Glegoo', serif;
+	font-weight: 700;
+	font-size: 1em;
+	width: 20%;
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+@media only screen and (max-width: 768px) {
+	#twoimages {
+		display: none;
+	}
+	#content {
+		float: none;
+		width: auto;
+	}
+	ul {
+		display: inline-block;
+		width: 100%;
+	}
+	li {
+		width: 24%;
+	}
+	#image1 {
+		display: block;
+	}
+	#wrapper, #header {
+		width: 75%;
+	}
+}
+@media only screen and (max-width: 320px) {
+	#twoimages {
+		display: none;
+	}
+	#content {
+		float: none;
+		width: auto;
+	}
+	#wrapper, #header {
+		width: 75%;
+	}
+	p {
+		font-size: 10px;
+	}
+	#image1 {
+		display: block;
+		margin: 0 auto;
+	}
+	nav {
+		display: none;
+	}
+}
