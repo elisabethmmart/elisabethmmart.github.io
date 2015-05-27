@@ -45,14 +45,14 @@ body {
 	width: 60%;
 	float: left;
 }
-#become {
+#becomeamem {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 1.5em;
 	line-height: 1em;
 	margin-bottom: 0;
 }
-#join {
+#jointhedis {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	margin-top: 0;
@@ -64,7 +64,7 @@ header {
 	width: 66%;
 	margin: 0 auto;
 }
-ul {
+#navbarul {
 	list-style: none;
 	float: right;
 	text-align: center;
@@ -73,7 +73,7 @@ ul {
 	display: inline-block;
 	width: 66%;
 }
-li {
+.navbar {
 	font-family: 'Glegoo', serif;
 	font-weight: 700;
 	font-size: 1em;
@@ -84,11 +84,57 @@ a {
 	text-decoration: none;
 	color: #000000;
 }
+.memberben {
+	display: block;
+	line-height: 2em;
+}
+footer {
+	width: 100%;
+	height: 175px;
+	background-color: #DDD;
+	margin-top: 5%;
+}
+.footer-top {
+	padding: 1%;
+}
+.footer-inner {
+	width: 66%;
+	margin: 0 auto;
+}
+.footer-left {
+	float: left;
+	width: 79%;
+  	margin: 0;
+  	border-right: 1px dotted #9fa7a9;
+}
+.footer-menu-exp {
+	margin: 0 0 2% 0;
+  	list-style-type: none;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 24%;
+  	vertical-align: text-top;
+}
+.footer-menu {
+	padding: 0;
+  	margin-top: 5px;
+  	list-style: none;
+  	text-transform: none;
+  	font-weight: normal;
+}
+.footer-right {
+	float: right;
+	width: 19%;
+	display: inline-block;
+}
+.footer-right-connect {
+	width: 75%;
+}
 @media only screen and (max-width: 1050px) {
-	#become {
+	#becomeamem {
 		font-size: 1.1em;
 	}
-	#join {
+	#jointhedis {
 		font-size: 1.1em;
 	}
 }
@@ -100,12 +146,12 @@ a {
 		float: none;
 		width: 100%;
 	}
-	ul {
+	#navbarul {
 		display: inline-block;
 		width: 100%;
 		padding: 1%;
 	}
-	li {
+	.navbar {
 		width: 24%;
 		font-size: 1.1em;
 	}
@@ -119,11 +165,11 @@ a {
 	body {
 		font-size: 12px;
 	}
-	#become {
+	#becomeamem {
 	font-size: 1.25em;
 	text-align: center;
 	}
-	#join {
+	#jointhedis {
 	font-size: 1.25em;
 	text-align: center;
 	}
@@ -149,12 +195,12 @@ a {
 	nav {
 		display: none;
 	}
-		#become {
+	#becomeamem {
 	font-size: 1.1em;
 	line-height: 1em;
 	margin-bottom: 0;
 	}
-	#join {
+	#jointhedis {
 	margin-left: 10%;
 	font-size: 1.1em;
 	line-height: 1em;
