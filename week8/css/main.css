@@ -144,11 +144,10 @@ a {
 	}
 	#image1 {
 		display: block;
-		margin: 10% auto;
+		margin: 1% auto;
 	}
 	nav {
 		display: none;
-		padding: 3%;
 	}
 		#become {
 	font-size: 1.5em;
