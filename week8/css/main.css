@@ -140,7 +140,7 @@ a {
 		width: 90%;
 	}
 	body {
-		font-size: 12px;
+		font-size: 13px;
 	}
 	#image1 {
 		display: block;
@@ -150,13 +150,13 @@ a {
 		display: none;
 	}
 		#become {
-	font-size: 1.5em;
+	font-size: 1.1em;
 	line-height: 1em;
 	margin-bottom: 0;
 	}
 	#join {
 	margin-left: 10%;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	line-height: 1em;
 	}
 }
