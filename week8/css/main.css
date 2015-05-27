@@ -9,9 +9,9 @@ body {
 }
 #image1 {
 	width: 33%;
-	min-width: 200px;
+	min-width: 250px;
 	display: inline-block;
-	margin: 10px;
+	margin: 1%;
 }
 #image2 {
 	display: block;
@@ -28,9 +28,9 @@ body {
 #twoimages {
 	float: right;
 	display: block;
-	width: 40%;
+	width: 35%;
 	max-width: 300px;
-	margin-left: 5px;
+	padding-left: 5%;
 }
 #twoimages img {
 	width: 100%;
@@ -39,11 +39,10 @@ body {
 }
 #wrapper {
 	width: 66%;
-	margin: 20px auto 0;
+	margin: 2% auto 0;
 }
 #content {
 	width: 60%;
-	max-width: 500px;
 	float: left;
 }
 #become {
@@ -56,9 +55,8 @@ body {
 #join {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-size: 3em;
 	margin-top: 0;
-	margin-left: 15%;
+	margin-left: 10%;
 	font-size: 1.5em;
 	line-height: 1em;
 }
@@ -73,7 +71,7 @@ ul {
 	padding: 0;
 	margin: auto;
 	display: inline-block;
-	width: 67%;
+	width: 66%;
 }
 li {
 	font-family: 'Glegoo', serif;
@@ -86,45 +84,48 @@ a {
 	text-decoration: none;
 	color: #000000;
 }
+@media only screen and (max-width: 1050px) {
+	#become {
+		font-size: 1.1em;
+	}
+	#join {
+		font-size: 1.1em;
+	}
+}
 @media only screen and (max-width: 768px) {
 	#twoimages {
 		display: none;
 	}
 	#content {
 		float: none;
-		width: auto;
+		width: 100%;
 	}
 	ul {
 		display: inline-block;
 		width: 100%;
+		padding: 1%;
 	}
 	li {
 		width: 24%;
+		font-size: 1.1em;
 	}
 	#image1 {
 		display: block;
+		margin: 3% auto;
 	}
 	#wrapper, #header {
-		width: 75%;
+		width: 80%;
 	}
 	body {
 		font-size: 12px;
 	}
 	#become {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 1.5em;
-	line-height: 1em;
-	margin-bottom: 0;
+	font-size: 1.25em;
+	text-align: center;
 	}
 	#join {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 3em;
-	margin-top: 0;
-	margin-left: 15%;
-	font-size: 1.5em;
-	line-height: 1em;
+	font-size: 1.25em;
+	text-align: center;
 	}
 }
 @media only screen and (max-width: 320px) {
@@ -136,10 +137,10 @@ a {
 		width: auto;
 	}
 	#wrapper, #header {
-		width: 75%;
+		width: 90%;
 	}
 	body {
-		font-size: 10px;
+		font-size: 12px;
 	}
 	#image1 {
 		display: block;
@@ -147,20 +148,15 @@ a {
 	}
 	nav {
 		display: none;
+		padding: 3%;
 	}
 		#become {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
 	font-size: 1.5em;
 	line-height: 1em;
 	margin-bottom: 0;
 	}
 	#join {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 3em;
-	margin-top: 0;
-	margin-left: 15%;
+	margin-left: 10%;
 	font-size: 1.5em;
 	line-height: 1em;
 	}
