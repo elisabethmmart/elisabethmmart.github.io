@@ -29,12 +29,10 @@ body {
 	float: right;
 	display: block;
 	width: 35%;
-	max-width: 500px;
 	padding-left: 5%;
 }
 #twoimages img {
 	width: 100%;
-	min-width: 200px;
 	height: auto;
 }
 #wrapper {
