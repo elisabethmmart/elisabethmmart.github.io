@@ -157,6 +157,7 @@ footer {
 	}
 	#image1 {
 		display: block;
+		vertical-align: middle;
 		margin: 3% auto;
 	}
 	#wrapper, #header {
@@ -190,7 +191,8 @@ footer {
 	}
 	#image1 {
 		display: block;
-		margin: 1% auto;
+		vertical-align: middle;
+		margin: 3% auto;
 	}
 	nav {
 		display: none;
