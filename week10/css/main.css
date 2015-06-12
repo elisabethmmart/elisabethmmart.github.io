@@ -269,7 +269,7 @@ showNav : true
 		display: inline-block;
 		float: left;
 		margin: 3% 0;
-		padding-right: 10%;
+		padding-right: 5%;
 	}
 	#mainnav, #navbar-checkbox {
 		display: none;
@@ -277,7 +277,7 @@ showNav : true
 	#mobilenav {
 		display: block;
 		padding-top: 15%;
-		padding-left: 10%
+		padding-left: 5%
 	}
 	#menu {
 		display: none;
