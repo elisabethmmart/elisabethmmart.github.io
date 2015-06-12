@@ -248,6 +248,9 @@ showNav : true
 	}
 }
 @media only screen and (max-width: 400px) {
+	header {
+		width: 75%;
+	}
 	#twoimages {
 		display: none;
 	}
@@ -265,7 +268,8 @@ showNav : true
 		width: 75%;
 		display: inline-block;
 		float: left;
-		margin: 3% auto;
+		margin: 3% 0;
+		padding-right: 10%;
 	}
 	#mainnav, #navbar-checkbox {
 		display: none;
