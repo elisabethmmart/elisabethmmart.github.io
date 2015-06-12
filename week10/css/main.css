@@ -1,0 +1,271 @@
+body {
+	background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+#slogan {
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+}
+#image1 {
+	width: 33%;
+	min-width: 250px;
+	display: inline-block;
+	margin: 1%;
+}
+#hero {
+	display: block;
+	width: 100%;
+}
+.slider {
+	display: block;
+	width: 100%;
+}
+#image3 {
+	display: block;
+	margin: 10px 0 20px;
+}
+#image4 {
+	display: block;
+	margin: 10px 0 20px;
+}
+#twoimages {
+	float: right;
+	display: block;
+	width: 35%;
+	padding-left: 5%;
+}
+#twoimages img {
+	width: 100%;
+	height: auto;
+}
+#wrapper {
+	width: 66%;
+	margin: 2% auto 0;
+}
+#content {
+	width: 60%;
+	float: left;
+}
+#becomeamem {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 0;
+}
+#jointhedis {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	margin-top: 0;
+	margin-left: 10%;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+header {
+	width: 66%;
+	margin: 0 auto;
+}
+#navbarul {
+	list-style: none;
+	float: right;
+	text-align: center;
+	padding: 0;
+	margin: auto;
+	display: inline-block;
+	width: 66%;
+}
+.navbar {
+	font-family: 'Glegoo', serif;
+	font-weight: 700;
+	font-size: 1em;
+	width: 20%;
+	display: inline-block;
+}
+#mobilenav {
+	display: none;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+.memberben {
+	display: block;
+	line-height: 2em;
+}
+footer {
+	width: 100%;
+	height: 175px;
+	background-color: #DDD;
+	margin-top: 5%;
+}
+.footer-top {
+	padding: 1%;
+}
+.footer-inner {
+	width: 66%;
+	margin: 0 auto;
+}
+.footer-left {
+	float: left;
+	width: 79%;
+  	margin: 0;
+  	border-right: 1px dotted #9fa7a9;
+}
+.footer-menu-exp {
+	margin: 0 0 2% 0;
+  	list-style-type: none;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 24%;
+  	vertical-align: text-top;
+}
+.footer-menu {
+	padding: 0;
+  	margin-top: 5px;
+  	list-style: none;
+  	text-transform: none;
+  	font-weight: normal;
+}
+.footer-right {
+	float: right;
+	width: 19%;
+	display: inline-block;
+}
+.footer-right-connect {
+	width: 75%;
+}
+
+.tabs {
+  position: relative;   
+  min-height: 100px;
+  clear: both;
+  margin: 25px 0;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #FFF; 
+  padding: 10px; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+
+$('.slider').sss({
+slideShow : true,
+startOn : 0,
+transition : 300,
+speed : 3500,
+showNav : true
+});
+@media only screen and (max-width: 1050px) {
+	#becomeamem {
+		font-size: 1.1em;
+	}
+	#jointhedis {
+		font-size: 1.1em;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#twoimages {
+		display: none;
+	}
+	#content {
+		float: none;
+		width: 100%;
+	}
+	#navbarul {
+		display: inline-block;
+		width: 100%;
+		padding: 1%;
+	}
+	.navbar {
+		width: 24%;
+		font-size: 1.1em;
+	}
+	#image1 {
+		display: block;
+		vertical-align: middle;
+		margin: 3% auto;
+	}
+	#wrapper, #header {
+		width: 80%;
+	}
+	body {
+		font-size: 12px;
+	}
+	#becomeamem {
+	font-size: 1.25em;
+	text-align: center;
+	}
+	#jointhedis {
+	font-size: 1.25em;
+	text-align: center;
+	}
+}
+@media only screen and (max-width: 400px) {
+	#twoimages {
+		display: none;
+	}
+	#content {
+		float: none;
+		width: auto;
+	}
+	#wrapper, #header {
+		width: 90%;
+	}
+	body {
+		font-size: 13px;
+	}
+	#image1 {
+		display: block;
+		vertical-align: middle;
+		margin: 3% auto;
+	}
+	#mainnav, #navbar-checkbox {
+		display: none;
+	}
+	#mobilenav {
+		display: block;
+	}
+	#menu {
+		display: none;
+	}
+	#navbar-checkbox:checked + #menu {
+		display: block;
+		z-index: 2;
+		background-color: red;
+	}
+	#becomeamem {
+	font-size: 1.1em;
+	line-height: 1em;
+	margin-bottom: 0;
+	}
+	#jointhedis {
+	margin-left: 10%;
+	font-size: 1.1em;
+	line-height: 1em;
+	}
+}
